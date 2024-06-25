@@ -1,0 +1,71 @@
+{
+    "emisor":{
+      "rutemisor":"77918411-0",
+      "rsemisor":"DEVELOPER LATAM SPA",
+      "giroemisor":"ACTIVIDADES DE PROGRAMACION INFORMÁTICA",
+      "acteco":"620100",
+      "diremisor":"AV DEL VALLE 945 OF 2613 PATIO MAYOR 945 DEPTO",
+      "cmnaemisor":"HUECHURABA",
+      "ciuemisor":"SANTIAGO",
+      "fecharesol":"2024-03-22",
+      "numresol":"0",
+      "cdgsiisucur":"1",		
+      "rutenvia":"17461924-7"	
+    },   
+    "receptor":{
+    
+      "rutreceptor":"60803000-K",
+      "rsreceptor":"Servicio de Impuestos Internos (SII)",
+      "giroreceptor":"Admisitración Pública",
+      "dirreceptor":"Teatinos 120",
+      "cmnareceptor":"Santiago",
+      "ciureceptor":"Santiago"
+    },
+    
+    
+    "iddoc" : {
+                "tipodte" : "33",
+                "numdte": "572",
+                "fchemis":"2017-11-06"	
+            
+            },	
+    
+    "totales":{
+    
+            
+        "montoafecto":"750000",
+        "montoexento":"0",
+        "iva":"142500",
+        "tasaiva":"19",	
+        "montototal":"892500"
+           
+    },
+    
+    
+    
+    
+    "detalle":[
+                        {
+                            "nrolinea" : "1",
+                            "tpocodigo" : "INT",
+                            "vlrcodigo" : "3333",
+                            "nmbitem":"SERVIDOR HP",
+                            "qtyitem":"1",
+                            "prcitem":"500000",
+                            "montoitem":"500000"
+                        
+        
+                         },
+                        {
+                            "nrolinea" : "2",
+                            "tpocodigo" : "INT",
+                            "vlrcodigo" : "23233",
+                            "nmbitem":"NOTEBOOK LENOVO",
+                            "qtyitem":"1",
+                            "prcitem":"250000",
+                            "montoitem":"250000"	
+                        }
+                    ]
+            
+    
+    }

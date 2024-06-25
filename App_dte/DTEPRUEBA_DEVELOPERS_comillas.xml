@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:envio="http://www.sii.cl/SiiDte" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SetDoc">
+    <Caratula version="1.0">
+      <RutEmisor>77918411-0</RutEmisor>
+      <RutEnvia>17461924-7</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2024-03-22</FchResol>
+      <NroResol>0</NroResol>
+      <TmstFirmaEnv>2024-06-06T11:55:23</TmstFirmaEnv>
+      <SubTotDTE>
+        <TpoDTE>33</TpoDTE>
+        <NroDTE>4</NroDTE>
+      </SubTotDTE>
+      <SubTotDTE>
+        <TpoDTE>61</TpoDTE>
+        <NroDTE>3</NroDTE>
+      </SubTotDTE>
+      <SubTotDTE>
+        <TpoDTE>56</TpoDTE>
+        <NroDTE>1</NroDTE>
+      </SubTotDTE>
+    </Caratula>
+    <DTE version="1.0">
+  <Documento ID="LibreDTE_T33F3">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>3</Folio>
+        <FchEmis>2024-05-14</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>77918411-0</RUTEmisor>
+        <RznSoc>DEVELOPER LATAM SPA</RznSoc>
+        <GiroEmis>Actividades de programación informática</GiroEmis>
+        <Acteco>620100</Acteco>
+        <DirOrigen>Av. Raúl Labbé 12613</DirOrigen>
+        <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>60803000-K</RUTRecep>
+        <RznSocRecep>Servicio de Impuestos Internos (SII)</RznSocRecep>
+        <GiroRecep>Administración Pública</GiroRecep>
+        <Contacto>+56 2 3252 5575</Contacto>
+        <CorreoRecep>facturacionmipyme@sii.cl</CorreoRecep>
+        <DirRecep>Teatinos 120</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>540459</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>102687</IVA>
+        <MntTotal>643146</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Cajón AFECTO</NmbItem>
+      <QtyItem>145</QtyItem>
+      <PrcItem>2185</PrcItem>
+      <MontoItem>316825</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <NmbItem>Relleno AFECTO</NmbItem>
+      <QtyItem>62</QtyItem>
+      <PrcItem>3607</PrcItem>
+      <MontoItem>223634</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>3</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <RazonRef>CASO 3890515-1</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+  <DD>
+    <RE>77918411-0</RE>
+    <TD>33</TD>
+    <F>3</F>
+    <FE>2024-05-14</FE>
+    <RR>60803000-K</RR>
+    <RSR>Servicio de Impuestos Internos (SII)</RSR>
+    <MNT>643146</MNT>
+    <IT1>Cajón AFECTO</IT1>
+    <CAF version="1.0">
+<DA>
+<RE>77918411-0</RE>
+<RS>DEVELOPER LATAM SPA</RS>
+<TD>33</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2024-04-30</FA>
+<RSAPK><M>tjkySzJfUM1P19Dy+QiWaKwlUVOMa6DDhKEhJ/icmkH/rEvL5pzWi/+z3nSky7LIG87iti7uZ7aeh7E+hvHCTQ==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">mGiUV0BAVoHAUx06V6L+ovV3UAzHVxyb4OOs5iPiyNgORiCVmia+L/XEPzvlnVppXcvI/5NhB1JNfZYIG6yL+g==</FRMA>
+</CAF>
+    <TSTED>2024-05-14T10:54:33</TSTED>
+  </DD>
+  <FRMT algoritmo="SHA1withRSA">pOOxpxsi3DMD7LH7bo3Rr5m32p+jT3u2q5RXwGHC2fl9ztANGaJlE6ntNdvtkjEFzjttIH0UO2PrihNdHHnCsQ==</FRMT>
+</TED>
+  <TmstFirma>2024-05-14T10:54:33</TmstFirma></Documento>
+<dsig:Signature><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#LibreDTE_T33F3"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>KgTcxRqCwWsr0eBCEZcGbU8jkaU=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>kR3ukmVIz9LXPV5Chc5zzI2trGjsweLnavkdhLY6NSOlo6P1mEr05lrM0NsflzB1
+leXOwmVEYAjbWIklvWeN/goXKKnhXXW88UobdNh6n3/558I3N+HqikZRzGQkjOrA
+pQneTmdNTwJyaXXjCKF0LtLHZjrh4g0lABlXHAjMyUW2Er1dkkXtsZ6TialjFcB4
+j4RWehxzygju76jib6iLRyBIn63RZSKrY/dJzxR9YqZa4dDsK35vCn/2KpJ1NBVH
+Elx9RMAtN2aee40rgWm31rntmzLfnvXS5BKBUXNsTJsT+K/QoQFfIymNFiM/Hq27
+f9PkAWEenPvRH561DPXM1Q==</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qju
+uD7wHBqb2u9N8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym
+3Fzg5nTi8TJ59Ahxfi3LkKL6WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACP
+f6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87z+KfAzHQ2ApDGtEwXYRrejhHot/F
+TCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlqz4+97DGc5t/SePYd
+PhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data><dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkq
+hkiG9w0BCQEWD3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBF
+TEVDVFJPTklDQSBWNDEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsM
+F0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMg
+U3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHhcNMjQwMzIxMTgz
+NzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBBTEVK
+QU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlh
+c2Vzb3IuY2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYD
+VQQHDAJSTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0r
+F0yfjWiRyxAPe5ABiufP48iDJZi88OGCgSB7l1chBokKfeuAHfao7rg+8Bwam9rv
+TfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA5SvxFumcptxc4OZ04vEy
+efQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+lNEcQrBym
+cu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/y
+W4s9YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf
+3US+pRL9TSECAwEAAaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K
+238QN4h0Z0WyyrkShODGeBYwgZgGA1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8
+MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9rLmNsL29wZW4vY3BzLnBkZjBM
+BggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAg
+AHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNU
+Uk9OSUNBXzQuY3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlk
+b2suY2wxJDAiBgNVBAMMG0lET0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50
+aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhuVFY+
+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4
+LTQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3
+DQEBCwUAA4IBAQCNjZMkpKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/I
+K0vA86uHFb6VN5xLNFka16qIGn3HcO5QnBvzwgOnYytcgsasK5Mv/DJr9HtYTmll
+wCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ4wDEcm66V3tlz3oGOZvy
+EPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjIZ4dVKr6r
+tnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ss
+JFQQRb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature></DTE>
+    <DTE version="1.0">
+  <Documento ID="LibreDTE_T33F4">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>4</Folio>
+        <FchEmis>2024-05-14</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>77918411-0</RUTEmisor>
+        <RznSoc>DEVELOPER LATAM SPA</RznSoc>
+        <GiroEmis>Actividades de programación informática</GiroEmis>
+        <Acteco>620100</Acteco>
+        <DirOrigen>Av. Raúl Labbé 12613</DirOrigen>
+        <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>60803000-K</RUTRecep>
+        <RznSocRecep>Servicio de Impuestos Internos (SII)</RznSocRecep>
+        <GiroRecep>Administración Pública</GiroRecep>
+        <Contacto>+56 2 3252 5575</Contacto>
+        <CorreoRecep>facturacionmipyme@sii.cl</CorreoRecep>
+        <DirRecep>Teatinos 120</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>2845651</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>540674</IVA>
+        <MntTotal>3386325</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Pañuelo AFECTO</NmbItem>
+      <QtyItem>492</QtyItem>
+      <PrcItem>3867</PrcItem>
+      <DescuentoPct>7</DescuentoPct>
+      <DescuentoMonto>133179</DescuentoMonto>
+      <MontoItem>1769385</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <QtyItem>428</QtyItem>
+      <PrcItem>2924</PrcItem>
+      <DescuentoPct>14</DescuentoPct>
+      <DescuentoMonto>175206</DescuentoMonto>
+      <MontoItem>1076266</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>4</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <RazonRef>CASO 3890515-2</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+  <DD>
+    <RE>77918411-0</RE>
+    <TD>33</TD>
+    <F>4</F>
+    <FE>2024-05-14</FE>
+    <RR>60803000-K</RR>
+    <RSR>Servicio de Impuestos Internos (SII)</RSR>
+    <MNT>3386325</MNT>
+    <IT1>Pañuelo AFECTO</IT1>
+    <CAF version="1.0">
+<DA>
+<RE>77918411-0</RE>
+<RS>DEVELOPER LATAM SPA</RS>
+<TD>33</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2024-04-30</FA>
+<RSAPK><M>tjkySzJfUM1P19Dy+QiWaKwlUVOMa6DDhKEhJ/icmkH/rEvL5pzWi/+z3nSky7LIG87iti7uZ7aeh7E+hvHCTQ==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">mGiUV0BAVoHAUx06V6L+ovV3UAzHVxyb4OOs5iPiyNgORiCVmia+L/XEPzvlnVppXcvI/5NhB1JNfZYIG6yL+g==</FRMA>
+</CAF>
+    <TSTED>2024-05-14T11:37:27</TSTED>
+  </DD>
+  <FRMT algoritmo="SHA1withRSA">X/32d5OSGnWXUqDohMXjVDA5pJim6z7kxaQgFoXaNCTbTi1fxdH1EzqsHsDtwGTvuR0IV+i1fw5nPzdZaegWOA==</FRMT>
+</TED>
+  <TmstFirma>2024-05-14T11:37:27</TmstFirma></Documento>
+<dsig:Signature><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#LibreDTE_T33F4"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>u00QpFlx97vBSAvM+C88HVkXpU8=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>qY5WdiPfH7CfictyfkWyhcRIBqOpJpdyvbR26jF0fIs/FVMOEQMXe5c4LC0y2pbO
+KTzxFA8WxEPNlGTebHVaWlNWKdWFo/QCU6tQ+pse0VtHcfcaCHPpVDt9nHw3Hxfm
+rcEG4aovjO6mnQxF4W8SOCxbL692AGVCANyshcPlM8LjtW2mJ/Dpm00GWf3ErXgl
+9e9wuBAHNVS85xUUert7kqQa6e7CRHp6SUkjh7WJnu1UN1oHNUzy3XwxGZbzauxx
+t5rBFn9HWBwj4ifUPZjtktbj1yp08oTKjjkKBEadLEJpfOWhw+AEVwpLxdzi0yIK
+iWN8mL26DN46a8S54559Vw==</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qju
+uD7wHBqb2u9N8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym
+3Fzg5nTi8TJ59Ahxfi3LkKL6WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACP
+f6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87z+KfAzHQ2ApDGtEwXYRrejhHot/F
+TCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlqz4+97DGc5t/SePYd
+PhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data><dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkq
+hkiG9w0BCQEWD3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBF
+TEVDVFJPTklDQSBWNDEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsM
+F0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMg
+U3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHhcNMjQwMzIxMTgz
+NzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBBTEVK
+QU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlh
+c2Vzb3IuY2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYD
+VQQHDAJSTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0r
+F0yfjWiRyxAPe5ABiufP48iDJZi88OGCgSB7l1chBokKfeuAHfao7rg+8Bwam9rv
+TfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA5SvxFumcptxc4OZ04vEy
+efQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+lNEcQrBym
+cu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/y
+W4s9YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf
+3US+pRL9TSECAwEAAaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K
+238QN4h0Z0WyyrkShODGeBYwgZgGA1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8
+MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9rLmNsL29wZW4vY3BzLnBkZjBM
+BggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAg
+AHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNU
+Uk9OSUNBXzQuY3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlk
+b2suY2wxJDAiBgNVBAMMG0lET0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50
+aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhuVFY+
+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4
+LTQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3
+DQEBCwUAA4IBAQCNjZMkpKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/I
+K0vA86uHFb6VN5xLNFka16qIGn3HcO5QnBvzwgOnYytcgsasK5Mv/DJr9HtYTmll
+wCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ4wDEcm66V3tlz3oGOZvy
+EPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjIZ4dVKr6r
+tnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ss
+JFQQRb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature></DTE>
+    <DTE version="1.0">
+  <Documento ID="LibreDTE_T33F5">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>5</Folio>
+        <FchEmis>2024-05-14</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>77918411-0</RUTEmisor>
+        <RznSoc>DEVELOPER LATAM SPA</RznSoc>
+        <GiroEmis>Actividades de programación informática</GiroEmis>
+        <Acteco>620100</Acteco>
+        <DirOrigen>Av. Raúl Labbé 12613</DirOrigen>
+        <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>60803000-K</RUTRecep>
+        <RznSocRecep>Servicio de Impuestos Internos (SII)</RznSocRecep>
+        <GiroRecep>Administración Pública</GiroRecep>
+        <Contacto>+56 2 3252 5575</Contacto>
+        <CorreoRecep>facturacionmipyme@sii.cl</CorreoRecep>
+        <DirRecep>Teatinos 120</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>854071</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>162273</IVA>
+        <MntTotal>1016344</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Pintura B&amp;W AFECTO</NmbItem>
+      <QtyItem>37</QtyItem>
+      <PrcItem>4494</PrcItem>
+      <MontoItem>166278</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <QtyItem>192</QtyItem>
+      <PrcItem>3400</PrcItem>
+      <MontoItem>652800</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+      <QtyItem>1</QtyItem>
+      <PrcItem>34993</PrcItem>
+      <MontoItem>34993</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>5</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <RazonRef>CASO 3890515-3</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+  <DD>
+    <RE>77918411-0</RE>
+    <TD>33</TD>
+    <F>5</F>
+    <FE>2024-05-14</FE>
+    <RR>60803000-K</RR>
+    <RSR>Servicio de Impuestos Internos (SII)</RSR>
+    <MNT>1016344</MNT>
+    <IT1>Pintura B&amp;W AFECTO</IT1>
+    <CAF version="1.0">
+<DA>
+<RE>77918411-0</RE>
+<RS>DEVELOPER LATAM SPA</RS>
+<TD>33</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2024-04-30</FA>
+<RSAPK><M>tjkySzJfUM1P19Dy+QiWaKwlUVOMa6DDhKEhJ/icmkH/rEvL5pzWi/+z3nSky7LIG87iti7uZ7aeh7E+hvHCTQ==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">mGiUV0BAVoHAUx06V6L+ovV3UAzHVxyb4OOs5iPiyNgORiCVmia+L/XEPzvlnVppXcvI/5NhB1JNfZYIG6yL+g==</FRMA>
+</CAF>
+    <TSTED>2024-05-14T11:50:44</TSTED>
+  </DD>
+  <FRMT algoritmo="SHA1withRSA">haDPq6TrYN041JVATKZK3AR9t2xf/GcxCWW66FI4a/+2I/sLmwQGkjwoXplyAfz1lOBrfz7igCt3hPLAC5NTog==</FRMT>
+</TED>
+  <TmstFirma>2024-05-14T11:50:44</TmstFirma></Documento>
+<dsig:Signature><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#LibreDTE_T33F5"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>6dl2Y7xdmR0JYk4JIJXHaJgXFXw=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>GMtUcI2Tlg3at3F+HIyMkauZEOWDMmyHNokZ0JdPNBjYHUjk88Q13BqdyMmQvL6e
+G0DU2JI00VJrNaRp2GFxiaYwRVNGQdCoEI5JZbeZ2Gw6AZOrd8O816ucIIgusRxl
+tSYM5DFvKm2IZQ6/OhC7Gm/M6lgs7/kyHSMN0tNKt4nRlj8I0e8qxtyt8Al7wsxb
+mXSVLS7tS49oIq1vaf+8ZUK1ehYoM18meZTT9hu0Vx1BmKZCa2XUPhdb4QTwQqvw
+zr3fYJGPjl4yUb9FsR6hDAWXH46TNYBi8AZmzovfcD1AAFxFBqOb3J28/HvukwF1
+fFeDuFxH1VeJuHD/KFof3g==</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qju
+uD7wHBqb2u9N8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym
+3Fzg5nTi8TJ59Ahxfi3LkKL6WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACP
+f6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87z+KfAzHQ2ApDGtEwXYRrejhHot/F
+TCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlqz4+97DGc5t/SePYd
+PhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data><dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkq
+hkiG9w0BCQEWD3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBF
+TEVDVFJPTklDQSBWNDEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsM
+F0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMg
+U3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHhcNMjQwMzIxMTgz
+NzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBBTEVK
+QU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlh
+c2Vzb3IuY2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYD
+VQQHDAJSTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0r
+F0yfjWiRyxAPe5ABiufP48iDJZi88OGCgSB7l1chBokKfeuAHfao7rg+8Bwam9rv
+TfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA5SvxFumcptxc4OZ04vEy
+efQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+lNEcQrBym
+cu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/y
+W4s9YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf
+3US+pRL9TSECAwEAAaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K
+238QN4h0Z0WyyrkShODGeBYwgZgGA1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8
+MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9rLmNsL29wZW4vY3BzLnBkZjBM
+BggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAg
+AHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNU
+Uk9OSUNBXzQuY3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlk
+b2suY2wxJDAiBgNVBAMMG0lET0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50
+aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhuVFY+
+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4
+LTQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3
+DQEBCwUAA4IBAQCNjZMkpKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/I
+K0vA86uHFb6VN5xLNFka16qIGn3HcO5QnBvzwgOnYytcgsasK5Mv/DJr9HtYTmll
+wCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ4wDEcm66V3tlz3oGOZvy
+EPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjIZ4dVKr6r
+tnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ss
+JFQQRb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature></DTE>
+    <DTE version="1.0">
+  <Documento ID="LibreDTE_T33F6">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>6</Folio>
+        <FchEmis>2024-05-14</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>77918411-0</RUTEmisor>
+        <RznSoc>DEVELOPER LATAM SPA</RznSoc>
+        <GiroEmis>Actividades de programación informática</GiroEmis>
+        <Acteco>620100</Acteco>
+        <DirOrigen>Av. Raúl Labbé 12613</DirOrigen>
+        <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>60803000-K</RUTRecep>
+        <RznSocRecep>Servicio de Impuestos Internos (SII)</RznSocRecep>
+        <GiroRecep>Administración Pública</GiroRecep>
+        <Contacto>+56 2 3252 5575</Contacto>
+        <CorreoRecep>facturacionmipyme@sii.cl</CorreoRecep>
+        <DirRecep>Teatinos 120</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>1184284</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>225014</IVA>
+        <MntTotal>1409298</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>ITEM 1 AFECTO</NmbItem>
+      <QtyItem>245</QtyItem>
+      <PrcItem>3759</PrcItem>
+      <MontoItem>920955</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <QtyItem>104</QtyItem>
+      <PrcItem>4255</PrcItem>
+      <MontoItem>442520</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+      <QtyItem>2</QtyItem>
+      <PrcItem>6800</PrcItem>
+      <MontoItem>13600</MontoItem>
+    </Detalle>
+    <DscRcgGlobal>
+      <NroLinDR>1</NroLinDR>
+      <TpoMov>D</TpoMov>
+      <TpoValor>%</TpoValor>
+      <ValorDR>14</ValorDR>
+    </DscRcgGlobal>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>6</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <RazonRef>CASO 3890515-4</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+  <DD>
+    <RE>77918411-0</RE>
+    <TD>33</TD>
+    <F>6</F>
+    <FE>2024-05-14</FE>
+    <RR>60803000-K</RR>
+    <RSR>Servicio de Impuestos Internos (SII)</RSR>
+    <MNT>1409298</MNT>
+    <IT1>ITEM 1 AFECTO</IT1>
+    <CAF version="1.0">
+<DA>
+<RE>77918411-0</RE>
+<RS>DEVELOPER LATAM SPA</RS>
+<TD>33</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2024-04-30</FA>
+<RSAPK><M>tjkySzJfUM1P19Dy+QiWaKwlUVOMa6DDhKEhJ/icmkH/rEvL5pzWi/+z3nSky7LIG87iti7uZ7aeh7E+hvHCTQ==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">mGiUV0BAVoHAUx06V6L+ovV3UAzHVxyb4OOs5iPiyNgORiCVmia+L/XEPzvlnVppXcvI/5NhB1JNfZYIG6yL+g==</FRMA>
+</CAF>
+    <TSTED>2024-05-14T15:15:39</TSTED>
+  </DD>
+  <FRMT algoritmo="SHA1withRSA">QHzRZRMqE0auFbL998g+KefFjThBSzh9wTipxPOzRtDhVhOhrN3l70Mt6vMMUJXgvBl7sGcMz4Ok1TOhLVwhqQ==</FRMT>
+</TED>
+  <TmstFirma>2024-05-14T15:15:39</TmstFirma></Documento>
+<dsig:Signature><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#LibreDTE_T33F6"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>DoPL+PJqGX3vHm3FXdA54o0garQ=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>bHlJ4IG7hdQxaKOF+99mXYhcdZdsv3gSPVoM1cnYT6GcbIxr65kE2W0IbSS7o7Z2
+VMba8rYf5w8TqXU61WcRwYRjxyiq0Tf7q1CQey9w4qlzT6IALwe9GexpQBLHzqxX
+jZ/Yi0yB88OGs41QH86JHLjH7y/kKKVMUx4hFQoB+OAqn5tHGWHPedYXeRQB5gnZ
+w7IU18gu3OQ4/s63bcF1nPHaXiPp3ppD4iJvmMSzlGiZzN6GDyOAAIe5inuVz/vr
+/8Vx63/Q+b/jAguZy/4s6APxjWjBoy2fZI52TI/lp6Irya63g8Lkv0k3HXg/AuC3
+8axCL9d7SUWLedx13oKcQg==</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qju
+uD7wHBqb2u9N8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym
+3Fzg5nTi8TJ59Ahxfi3LkKL6WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACP
+f6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87z+KfAzHQ2ApDGtEwXYRrejhHot/F
+TCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlqz4+97DGc5t/SePYd
+PhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data><dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkq
+hkiG9w0BCQEWD3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBF
+TEVDVFJPTklDQSBWNDEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsM
+F0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMg
+U3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHhcNMjQwMzIxMTgz
+NzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBBTEVK
+QU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlh
+c2Vzb3IuY2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYD
+VQQHDAJSTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0r
+F0yfjWiRyxAPe5ABiufP48iDJZi88OGCgSB7l1chBokKfeuAHfao7rg+8Bwam9rv
+TfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA5SvxFumcptxc4OZ04vEy
+efQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+lNEcQrBym
+cu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/y
+W4s9YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf
+3US+pRL9TSECAwEAAaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K
+238QN4h0Z0WyyrkShODGeBYwgZgGA1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8
+MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9rLmNsL29wZW4vY3BzLnBkZjBM
+BggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAg
+AHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNU
+Uk9OSUNBXzQuY3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlk
+b2suY2wxJDAiBgNVBAMMG0lET0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50
+aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhuVFY+
+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4
+LTQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3
+DQEBCwUAA4IBAQCNjZMkpKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/I
+K0vA86uHFb6VN5xLNFka16qIGn3HcO5QnBvzwgOnYytcgsasK5Mv/DJr9HtYTmll
+wCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ4wDEcm66V3tlz3oGOZvy
+EPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjIZ4dVKr6r
+tnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ss
+JFQQRb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature></DTE>
+    <DTE version="1.0">
+  <Documento ID="LibreDTE_T61F1">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>61</TipoDTE>
+        <Folio>1</Folio>
+        <FchEmis>2024-05-14</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>77918411-0</RUTEmisor>
+        <RznSoc>DEVELOPER LATAM SPA</RznSoc>
+        <GiroEmis>Actividades de programación informática</GiroEmis>
+        <Acteco>620100</Acteco>
+        <DirOrigen>Av. Raúl Labbé 12613</DirOrigen>
+        <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>60803000-K</RUTRecep>
+        <RznSocRecep>Servicio de Impuestos Internos (SII)</RznSocRecep>
+        <GiroRecep>Administración Pública</GiroRecep>
+        <Contacto>+56 2 3252 5575</Contacto>
+        <CorreoRecep>facturacionmipyme@sii.cl</CorreoRecep>
+        <DirRecep>Teatinos 120</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>0</MntNeto>
+        <MntExe>0</MntExe>
+        <MntTotal>0</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Cajón AFECTO</NmbItem>
+      <MontoItem>0</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>1</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <RazonRef>CASO 3890515-5</RazonRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>33</TpoDocRef>
+      <FolioRef>3</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <CodRef>2</CodRef>
+      <RazonRef>CORRIGE GIRO DEL RECEPTOR</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+  <DD>
+    <RE>77918411-0</RE>
+    <TD>61</TD>
+    <F>1</F>
+    <FE>2024-05-14</FE>
+    <RR>60803000-K</RR>
+    <RSR>Servicio de Impuestos Internos (SII)</RSR>
+    <MNT>0</MNT>
+    <IT1>Cajón AFECTO</IT1>
+    <CAF version="1.0">
+<DA>
+<RE>77918411-0</RE>
+<RS>DEVELOPER LATAM SPA</RS>
+<TD>61</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2024-04-30</FA>
+<RSAPK><M>0oVOR17l4xcyA5OBUj1GE0139RiDtMXA9bgjZvEtHu2kz81diMBtTwNZ5hPH/TzizNbB8RaAtGoTUEkGfRDjJw==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">lBRawCUJOMEn5bClcWWRgKk+ZgonTBwP784TFSA2SWfoMbp3pXBoV5z9DbgIB3cJfj6dxy6VIWvhrQeD+d0maw==</FRMA>
+</CAF>
+    <TSTED>2024-05-14T16:25:31</TSTED>
+  </DD>
+  <FRMT algoritmo="SHA1withRSA">pGZlHc3kYT0PaES7vE1NGzthWRp5He7JRuRxx5YNsnbXlcigggEN6j9ukjdQuWmAATnVhz0z25AWyCl4urAgGA==</FRMT>
+</TED>
+  <TmstFirma>2024-05-14T16:25:31</TmstFirma></Documento>
+<dsig:Signature><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#LibreDTE_T61F1"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>VgPuLraQ7tg5hOIQuXbbsMWTjws=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>nsCofgzV68yktyLiruDqce2I9cnyeIh10tvp/feU6Kh9QHJNPuLKRt9Bx800mPkJ
+pjWT33YD3J6mC3wmuh9RoWKZeY3Dxvn23F916ZQMN3AEuD7qNCIbffVh6TNfEg5p
+xq4iQois+YHvxXmnYmqZybCLYpOTNkseBd2Z2hsNXJWmAjyA8+mgBF16gwUSdC9j
+qPUGgoKcriB5KM0P3vVDdGGM+C3MjLevAFHQUfe2U/ofF3mwhXpD0fgupIAL1jOR
+wHMxTz0orKVKrCyr8LPqVWXFph+egNzBMWDGSCA/CuwWNUebTAG08kO6F4Igygkk
+ZiT7+Xqm19bsytdJ4sTREg==</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qju
+uD7wHBqb2u9N8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym
+3Fzg5nTi8TJ59Ahxfi3LkKL6WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACP
+f6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87z+KfAzHQ2ApDGtEwXYRrejhHot/F
+TCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlqz4+97DGc5t/SePYd
+PhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data><dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkq
+hkiG9w0BCQEWD3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBF
+TEVDVFJPTklDQSBWNDEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsM
+F0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMg
+U3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHhcNMjQwMzIxMTgz
+NzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBBTEVK
+QU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlh
+c2Vzb3IuY2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYD
+VQQHDAJSTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0r
+F0yfjWiRyxAPe5ABiufP48iDJZi88OGCgSB7l1chBokKfeuAHfao7rg+8Bwam9rv
+TfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA5SvxFumcptxc4OZ04vEy
+efQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+lNEcQrBym
+cu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/y
+W4s9YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf
+3US+pRL9TSECAwEAAaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K
+238QN4h0Z0WyyrkShODGeBYwgZgGA1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8
+MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9rLmNsL29wZW4vY3BzLnBkZjBM
+BggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAg
+AHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNU
+Uk9OSUNBXzQuY3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlk
+b2suY2wxJDAiBgNVBAMMG0lET0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50
+aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhuVFY+
+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4
+LTQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3
+DQEBCwUAA4IBAQCNjZMkpKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/I
+K0vA86uHFb6VN5xLNFka16qIGn3HcO5QnBvzwgOnYytcgsasK5Mv/DJr9HtYTmll
+wCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ4wDEcm66V3tlz3oGOZvy
+EPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjIZ4dVKr6r
+tnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ss
+JFQQRb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature></DTE>
+    <DTE version="1.0">
+  <Documento ID="LibreDTE_T61F2">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>61</TipoDTE>
+        <Folio>2</Folio>
+        <FchEmis>2024-05-14</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>77918411-0</RUTEmisor>
+        <RznSoc>DEVELOPER LATAM SPA</RznSoc>
+        <GiroEmis>Actividades de programación informática</GiroEmis>
+        <Acteco>620100</Acteco>
+        <DirOrigen>Av. Raúl Labbé 12613</DirOrigen>
+        <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>60803000-K</RUTRecep>
+        <RznSocRecep>Servicio de Impuestos Internos (SII)</RznSocRecep>
+        <GiroRecep>Administración Pública</GiroRecep>
+        <Contacto>+56 2 3252 5575</Contacto>
+        <CorreoRecep>facturacionmipyme@sii.cl</CorreoRecep>
+        <DirRecep>Teatinos 120</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>1380178</MntNeto>
+        <MntExe>0</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>262234</IVA>
+        <MntTotal>1642412</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Pañuelo AFECTO</NmbItem>
+      <QtyItem>181</QtyItem>
+      <PrcItem>3867</PrcItem>
+      <DescuentoPct>7</DescuentoPct>
+      <DescuentoMonto>48995</DescuentoMonto>
+      <MontoItem>650932</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <QtyItem>290</QtyItem>
+      <PrcItem>2924</PrcItem>
+      <DescuentoPct>14</DescuentoPct>
+      <DescuentoMonto>118714</DescuentoMonto>
+      <MontoItem>729246</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>2</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <RazonRef>CASO 3890515-6</RazonRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>33</TpoDocRef>
+      <FolioRef>4</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <CodRef>3</CodRef>
+      <RazonRef>DEVOLUCION DE MERCADERIAS</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+  <DD>
+    <RE>77918411-0</RE>
+    <TD>61</TD>
+    <F>2</F>
+    <FE>2024-05-14</FE>
+    <RR>60803000-K</RR>
+    <RSR>Servicio de Impuestos Internos (SII)</RSR>
+    <MNT>1642412</MNT>
+    <IT1>Pañuelo AFECTO</IT1>
+    <CAF version="1.0">
+<DA>
+<RE>77918411-0</RE>
+<RS>DEVELOPER LATAM SPA</RS>
+<TD>61</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2024-04-30</FA>
+<RSAPK><M>0oVOR17l4xcyA5OBUj1GE0139RiDtMXA9bgjZvEtHu2kz81diMBtTwNZ5hPH/TzizNbB8RaAtGoTUEkGfRDjJw==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">lBRawCUJOMEn5bClcWWRgKk+ZgonTBwP784TFSA2SWfoMbp3pXBoV5z9DbgIB3cJfj6dxy6VIWvhrQeD+d0maw==</FRMA>
+</CAF>
+    <TSTED>2024-05-14T16:32:20</TSTED>
+  </DD>
+  <FRMT algoritmo="SHA1withRSA">nXWWm99Ruoqz3r9x3ofwBl2SOSxta6DNSynFE4heXMMYkBKcwiWoRh3Hmlm8ScBXWoqjJcizFjVrlJRuf8GikQ==</FRMT>
+</TED>
+  <TmstFirma>2024-05-14T16:32:20</TmstFirma></Documento>
+<dsig:Signature><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#LibreDTE_T61F2"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>pWl3s8ivaXIm7gLvZIoO6NRZzfk=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>SCBwmc5gPW3qbmVVJyhrCvccijElGpZUsUcnLHRSdLlJKQQf2GZxUOmZ2Yn2g+jb
+hmZcYeCQuDltH9F3dkJq3q9LSnhpPqx/OOJUAp0zJQZNaUUmzatRMU+bsNRIQdiG
+p1Vqh/01ilJV9bFCQjlUrAHYhDwiv9NEIrDIdJ2xWOUmurYZrInEehdltxY25L+Q
+cp5yI/eYDcORgdDUsBJMYzlmnZz/Cfl0I2P4W1mHs20gCiI0IZHaeK5rFxVQgMME
+QUsXbUi9IUAcIWehC9t7sqo93R4gY+egy5qEjC2muUxI2/p6JXmN7G4LALocTO5w
+UsZE/5R0O5dVQrOE69nA5A==</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qju
+uD7wHBqb2u9N8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym
+3Fzg5nTi8TJ59Ahxfi3LkKL6WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACP
+f6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87z+KfAzHQ2ApDGtEwXYRrejhHot/F
+TCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlqz4+97DGc5t/SePYd
+PhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data><dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkq
+hkiG9w0BCQEWD3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBF
+TEVDVFJPTklDQSBWNDEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsM
+F0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMg
+U3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHhcNMjQwMzIxMTgz
+NzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBBTEVK
+QU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlh
+c2Vzb3IuY2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYD
+VQQHDAJSTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0r
+F0yfjWiRyxAPe5ABiufP48iDJZi88OGCgSB7l1chBokKfeuAHfao7rg+8Bwam9rv
+TfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA5SvxFumcptxc4OZ04vEy
+efQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+lNEcQrBym
+cu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/y
+W4s9YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf
+3US+pRL9TSECAwEAAaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K
+238QN4h0Z0WyyrkShODGeBYwgZgGA1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8
+MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9rLmNsL29wZW4vY3BzLnBkZjBM
+BggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAg
+AHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNU
+Uk9OSUNBXzQuY3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlk
+b2suY2wxJDAiBgNVBAMMG0lET0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50
+aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhuVFY+
+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4
+LTQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3
+DQEBCwUAA4IBAQCNjZMkpKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/I
+K0vA86uHFb6VN5xLNFka16qIGn3HcO5QnBvzwgOnYytcgsasK5Mv/DJr9HtYTmll
+wCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ4wDEcm66V3tlz3oGOZvy
+EPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjIZ4dVKr6r
+tnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ss
+JFQQRb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature></DTE>
+    <DTE version="1.0">
+  <Documento ID="LibreDTE_T61F3">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>61</TipoDTE>
+        <Folio>3</Folio>
+        <FchEmis>2024-05-14</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>77918411-0</RUTEmisor>
+        <RznSoc>DEVELOPER LATAM SPA</RznSoc>
+        <GiroEmis>Actividades de programación informática</GiroEmis>
+        <Acteco>620100</Acteco>
+        <DirOrigen>Av. Raúl Labbé 12613</DirOrigen>
+        <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>60803000-K</RUTRecep>
+        <RznSocRecep>Servicio de Impuestos Internos (SII)</RznSocRecep>
+        <GiroRecep>Administración Pública</GiroRecep>
+        <Contacto>+56 2 3252 5575</Contacto>
+        <CorreoRecep>facturacionmipyme@sii.cl</CorreoRecep>
+        <DirRecep>Teatinos 120</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>854071</MntNeto>
+        <MntExe>0</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>162273</IVA>
+        <MntTotal>1016344</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Pintura B&amp;W AFECTO</NmbItem>
+      <QtyItem>37</QtyItem>
+      <PrcItem>4494</PrcItem>
+      <MontoItem>166278</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <QtyItem>192</QtyItem>
+      <PrcItem>3400</PrcItem>
+      <MontoItem>652800</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+      <QtyItem>1</QtyItem>
+      <PrcItem>34993</PrcItem>
+      <MontoItem>34993</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>3</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <RazonRef>CASO 3890515-7</RazonRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>33</TpoDocRef>
+      <FolioRef>5</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <CodRef>1</CodRef>
+      <RazonRef>ANULA FACTURA</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+  <DD>
+    <RE>77918411-0</RE>
+    <TD>61</TD>
+    <F>3</F>
+    <FE>2024-05-14</FE>
+    <RR>60803000-K</RR>
+    <RSR>Servicio de Impuestos Internos (SII)</RSR>
+    <MNT>1016344</MNT>
+    <IT1>Pintura B&amp;W AFECTO</IT1>
+    <CAF version="1.0">
+<DA>
+<RE>77918411-0</RE>
+<RS>DEVELOPER LATAM SPA</RS>
+<TD>61</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2024-04-30</FA>
+<RSAPK><M>0oVOR17l4xcyA5OBUj1GE0139RiDtMXA9bgjZvEtHu2kz81diMBtTwNZ5hPH/TzizNbB8RaAtGoTUEkGfRDjJw==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">lBRawCUJOMEn5bClcWWRgKk+ZgonTBwP784TFSA2SWfoMbp3pXBoV5z9DbgIB3cJfj6dxy6VIWvhrQeD+d0maw==</FRMA>
+</CAF>
+    <TSTED>2024-05-14T16:36:57</TSTED>
+  </DD>
+  <FRMT algoritmo="SHA1withRSA">Q1CboVdeyu4pARlNFUHSax5eP0DZBwbZuErFbm3BnCnchsfomREEsXAdyvbmCuDUOExABYs6/zYaDiTM3dqk8A==</FRMT>
+</TED>
+  <TmstFirma>2024-05-14T16:36:57</TmstFirma></Documento>
+<dsig:Signature><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#LibreDTE_T61F3"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>daHA3OEaMcPvVw3SvjJxChn9iO8=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>NJp4T8qn0cVHDsUKDB+hPsfpnfqqwR9gdTBCM4CCoh2ACShx6Kkoe6XO1YJO5IIO
+2at41ZgwG6LtCqbpG00eqlJ5WNCqMuObD9p4c5jOf1qwvJfQyjsyawVM2QHhGYIL
+HWytRaJghk5EdR2Xsiec2dflSJ8VvSQ0LcR3qU3vLQVwwC7Rr/9N1T9qL+9211Ap
+kUNC6iv3LakPdXQzW3GTPh+u7HEcggsHL/funuZ6IOecVWP8v42Zn2LIhIkVpOqk
+1P90zvH3MgXpQMdp1VjpmnIkzsUI/mw56Nnzl6725QaetVv36QddKSxuByXes5w1
+ZfJnRkMXNBWj6kMME+iB0A==</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qju
+uD7wHBqb2u9N8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym
+3Fzg5nTi8TJ59Ahxfi3LkKL6WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACP
+f6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87z+KfAzHQ2ApDGtEwXYRrejhHot/F
+TCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlqz4+97DGc5t/SePYd
+PhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data><dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkq
+hkiG9w0BCQEWD3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBF
+TEVDVFJPTklDQSBWNDEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsM
+F0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMg
+U3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHhcNMjQwMzIxMTgz
+NzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBBTEVK
+QU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlh
+c2Vzb3IuY2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYD
+VQQHDAJSTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0r
+F0yfjWiRyxAPe5ABiufP48iDJZi88OGCgSB7l1chBokKfeuAHfao7rg+8Bwam9rv
+TfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA5SvxFumcptxc4OZ04vEy
+efQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+lNEcQrBym
+cu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/y
+W4s9YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf
+3US+pRL9TSECAwEAAaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K
+238QN4h0Z0WyyrkShODGeBYwgZgGA1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8
+MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9rLmNsL29wZW4vY3BzLnBkZjBM
+BggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAg
+AHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNU
+Uk9OSUNBXzQuY3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlk
+b2suY2wxJDAiBgNVBAMMG0lET0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50
+aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhuVFY+
+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4
+LTQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3
+DQEBCwUAA4IBAQCNjZMkpKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/I
+K0vA86uHFb6VN5xLNFka16qIGn3HcO5QnBvzwgOnYytcgsasK5Mv/DJr9HtYTmll
+wCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ4wDEcm66V3tlz3oGOZvy
+EPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjIZ4dVKr6r
+tnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ss
+JFQQRb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature></DTE>
+    <DTE version="1.0">
+  <Documento ID="LibreDTE_T56F1">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>56</TipoDTE>
+        <Folio>1</Folio>
+        <FchEmis>2024-05-14</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>77918411-0</RUTEmisor>
+        <RznSoc>DEVELOPER LATAM SPA</RznSoc>
+        <GiroEmis>Actividades de programación informática</GiroEmis>
+        <Acteco>620100</Acteco>
+        <DirOrigen>Av. Raúl Labbé 12613</DirOrigen>
+        <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>60803000-K</RUTRecep>
+        <RznSocRecep>Servicio de Impuestos Internos (SII)</RznSocRecep>
+        <GiroRecep>Administración Pública</GiroRecep>
+        <Contacto>+56 2 3252 5575</Contacto>
+        <CorreoRecep>facturacionmipyme@sii.cl</CorreoRecep>
+        <DirRecep>Teatinos 120</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>0</MntNeto>
+        <MntExe>0</MntExe>
+        <MntTotal>0</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Cajón AFECTO</NmbItem>
+      <MontoItem>0</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>1</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <RazonRef>CASO 3890515-8</RazonRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>61</TpoDocRef>
+      <FolioRef>1</FolioRef>
+      <FchRef>2024-05-14</FchRef>
+      <CodRef>1</CodRef>
+      <RazonRef>ANULA NOTA DE CREDITO ELECTRONICA</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+  <DD>
+    <RE>77918411-0</RE>
+    <TD>56</TD>
+    <F>1</F>
+    <FE>2024-05-14</FE>
+    <RR>60803000-K</RR>
+    <RSR>Servicio de Impuestos Internos (SII)</RSR>
+    <MNT>0</MNT>
+    <IT1>Cajón AFECTO</IT1>
+    <CAF version="1.0">
+<DA>
+<RE>77918411-0</RE>
+<RS>DEVELOPER LATAM SPA</RS>
+<TD>56</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2024-05-01</FA>
+<RSAPK><M>wn0T+Z0gtI7Se/qETfvz2gsY3mdaCSt37zOrjSvXZnko5ToIDHxyzDGIv+AHMMtvWw+BCwzCl6flufq4k0u25w==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">UexpiWneiwTdPH6gZMCZKtvGaLQgxoiz2gRt8z1YEf1RBJFiRboWMgCAli/FTMUw722na0BG2RAgxqz451hdQg==</FRMA>
+</CAF>
+    <TSTED>2024-05-14T16:43:48</TSTED>
+  </DD>
+  <FRMT algoritmo="SHA1withRSA">Qt4UfLxChHLPkWD9KkFT4Bhrz3h/Pf5peJsibwwLAWv5mrG7+Wwvr7joOfYq+RIzNHaMCNSMtLEThr+Ep8JZcQ==</FRMT>
+</TED>
+  <TmstFirma>2024-05-14T16:43:48</TmstFirma></Documento>
+<dsig:Signature><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#LibreDTE_T56F1"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>e2yENchvDfQhqRKIpkVVZ3t8WOM=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>GP6T99JuVpS7NcbbYRv4hqAi9Z/iQ5XPsnUFxyOiZfEQR2QnmOwVsc4reKasy30P
+YxCTRPAXD7UtzkM7cMALIxjU69hfPEpyVjpvC/WZxjd4xz0vu3WWclusTf9RDXsT
+4lEUHvAjqW+IvIS1rTUrhN2SSHz0lPQT8AuiTFoOl4r7UToYTYklaclB4i1BeI2K
+q1bR14jZs2SGoYnbBooRwZhxGi27DsuKTB7YTXfHr6y6MfMHJhieK8icy+6kyzfI
+XstB2vpfQ3stKOka4Et2CA9vDRZ/vdEIfhynm1/QiXkl1zcjPlSC0xgW/H8Lij7V
+Igx2qsCkUEujgHUeMMadVA==</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qju
+uD7wHBqb2u9N8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym
+3Fzg5nTi8TJ59Ahxfi3LkKL6WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACP
+f6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87z+KfAzHQ2ApDGtEwXYRrejhHot/F
+TCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlqz4+97DGc5t/SePYd
+PhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data><dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkq
+hkiG9w0BCQEWD3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBF
+TEVDVFJPTklDQSBWNDEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsM
+F0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMg
+U3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHhcNMjQwMzIxMTgz
+NzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBBTEVK
+QU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlh
+c2Vzb3IuY2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYD
+VQQHDAJSTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0r
+F0yfjWiRyxAPe5ABiufP48iDJZi88OGCgSB7l1chBokKfeuAHfao7rg+8Bwam9rv
+TfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA5SvxFumcptxc4OZ04vEy
+efQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+lNEcQrBym
+cu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/y
+W4s9YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf
+3US+pRL9TSECAwEAAaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K
+238QN4h0Z0WyyrkShODGeBYwgZgGA1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8
+MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9rLmNsL29wZW4vY3BzLnBkZjBM
+BggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAg
+AHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNU
+Uk9OSUNBXzQuY3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlk
+b2suY2wxJDAiBgNVBAMMG0lET0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50
+aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhuVFY+
+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4
+LTQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3
+DQEBCwUAA4IBAQCNjZMkpKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/I
+K0vA86uHFb6VN5xLNFka16qIGn3HcO5QnBvzwgOnYytcgsasK5Mv/DJr9HtYTmll
+wCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ4wDEcm66V3tlz3oGOZvy
+EPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjIZ4dVKr6r
+tnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ss
+JFQQRb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature></DTE>
+  </SetDTE>
+<dsig:Signature>
+<dsig:SignedInfo>
+<dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<dsig:Reference URI="#SetDoc">
+<dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<dsig:DigestValue>lxXHz1Cdg1EdH5a3QO1CjSVyzIU=</dsig:DigestValue>
+</dsig:Reference>
+</dsig:SignedInfo>
+<dsig:SignatureValue>dsH7oDonYVywYvJRlgmwANsLt1YKMxaW3yauSYXHz+sH1fvWK0NnxImQZIRAj6er
+crviWMCHNssQOK+1SKSacNE8CxVjsAnZ/lI1SexC7yO0y88HzF+v08urKpsJSJrC
+h53kfD737f5rrIosDOcx7hKIHmgwrWOePUC+pxABmxEw0dlkyPIPFXfnXUc/0/QW
+U9xiaLtnsA6QohD5HG3AMsszW0BgdXQTZWZxUnkkhCz8p2azh0+Z/hSpPVM4gzw7
+yjyt+4Lj6N0nnx7FYz+vkpah7HRFezQop1nwjqu8yl6Nvm8Sk2Js/KgMvEqy3LML
+M7gNii8ilu0HcKdcdEMs9Q==</dsig:SignatureValue>
+<dsig:KeyInfo><dsig:KeyValue><dsig:RSAKeyValue><dsig:Modulus>s+a65MGufSsXTJ+NaJHLEA97kAGK58/jyIMlmLzw4YKBIHuXVyEGiQp964Ad9qjuuD7wHBqb2u9N
+8l9BocTpJhefhFs0WP6hMLzs2IH3BfsYfDTlADIuMwDlK/EW6Zym3Fzg5nTi8TJ59Ahxfi3LkKL6
+WP3pdE3XrMLtDmXEj7odR32AEGVWeDQEHCuoYACPf6U0RxCsHKZy7gf8HYt1eIdz2khI/jm05d87
+z+KfAzHQ2ApDGtEwXYRrejhHot/FTCgub+8i7/Jbiz1jIuN8ZS73EPZGnRTONsD+HHNKYC8Uhhlq
+z4+97DGc5t/SePYdPhtPyD4jyZ/dRL6lEv1NIQ==</dsig:Modulus><dsig:Exponent>AQAB</dsig:Exponent></dsig:RSAKeyValue></dsig:KeyValue><dsig:X509Data>
+<dsig:X509Certificate>MIIGFzCCBP+gAwIBAgIIY8PzSy2NDjMwDQYJKoZIhvcNAQELBQAwgboxHjAcBgkqhkiG9w0BCQEW
+D3NvcG9ydGVAaWRvay5jbDEiMCAGA1UEAwwZSURPSyBGSVJNQSBFTEVDVFJPTklDQSBWNDEXMBUG
+A1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNVBAsMF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkw
+FwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREwDwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0ww
+HhcNMjQwMzIxMTgzNzM5WhcNMjcwMzIxMTgzNzM5WjCBgTEtMCsGA1UEAwwkU0VCQVNUScOBTiBB
+TEVKQU5EUk8gWcOBw5FFWiBRVUVaQURBMSEwHwYJKoZIhvcNAQkBFhJtdmFyYXNAbWlhc2Vzb3Iu
+Y2wxEzARBgNVBAUTCjE3NDYxOTI0LTcxCzAJBgNVBAYTAkNMMQswCQYDVQQHDAJSTTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALPmuuTBrn0rF0yfjWiRyxAPe5ABiufP48iDJZi88OGC
+gSB7l1chBokKfeuAHfao7rg+8Bwam9rvTfJfQaHE6SYXn4RbNFj+oTC87NiB9wX7GHw05QAyLjMA
+5SvxFumcptxc4OZ04vEyefQIcX4ty5Ci+lj96XRN16zC7Q5lxI+6HUd9gBBlVng0BBwrqGAAj3+l
+NEcQrBymcu4H/B2LdXiHc9pISP45tOXfO8/inwMx0NgKQxrRMF2Ea3o4R6LfxUwoLm/vIu/yW4s9
+YyLjfGUu9xD2Rp0UzjbA/hxzSmAvFIYZas+PvewxnObf0nj2HT4bT8g+I8mf3US+pRL9TSECAwEA
+AaOCAlYwggJSMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUu91K238QN4h0Z0WyyrkShODGeBYwgZgG
+A1UdIASBkDCBjTCBigYKKwYBBAGDjB4BBDB8MCwGCCsGAQUFBwIBFiBodHRwczovL3BzYy5pZG9r
+LmNsL29wZW4vY3BzLnBkZjBMBggrBgEFBQcCAjBAHj4AQwBlAHIAdABpAGYAaQBjAGEAZABvACAA
+cABhAHIAYQAgAHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbzCCAREGA1UdHwSCAQgwggEEMIIB
+AKA5oDeGNWh0dHBzOi8vcHNjLmlkb2suY2wvb3Blbi9JRE9LX0ZJUk1BX0VMRUNUUk9OSUNBXzQu
+Y3JsooHCpIG/MIG8MR4wHAYJKoZIhvcNAQkBFg9zb3BvcnRlQGlkb2suY2wxJDAiBgNVBAMMG0lE
+T0sgRklSTUEgRUxFQ1RST05JQ0EgMjAyMjEXMBUGA1UECwwOUlVULTc2NjEwNzE4LTQxIDAeBgNV
+BAsMF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMRkwFwYDVQQKDBBCUE8gQWR2aXNvcnMgU3BBMREw
+DwYDVQQHDAhTYW50aWFnbzELMAkGA1UEBhMCQ0wwHQYDVR0OBBYEFGKvrNqiZmJ0MS6q/OjLwDhu
+VFY+MAsGA1UdDwQEAwIEkDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjc2NjEwNzE4LTQwIwYD
+VR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxNzQ2MTkyNC03MA0GCSqGSIb3DQEBCwUAA4IBAQCNjZMk
+pKEBRGIboM2tSCIu2FFa13BJa7j+OOLhegkhdGxtkI/IK0vA86uHFb6VN5xLNFka16qIGn3HcO5Q
+nBvzwgOnYytcgsasK5Mv/DJr9HtYTmllwCSI61+beu691MFA9ZKycUQ225aQlV8MGLclB2id9RtQ
+4wDEcm66V3tlz3oGOZvyEPFSeAby+erXS+N//rUUnsfhu1jwYgziFjcAl2u6Ix7MJiBcbgVroOjI
+Z4dVKr6rtnsMUrxTIZqdq90e6qafjtf7tubuVJO5jbnuR2cGR7stL+Hk1FiuOgGaVAdju9ssJFQQ
+Rb6JejJyKy3nSN/8nznbqVR0L0dhHnn4</dsig:X509Certificate>
+</dsig:X509Data>
+</dsig:KeyInfo>
+</dsig:Signature></EnvioDTE>
